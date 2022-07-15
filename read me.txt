@@ -1,0 +1,9 @@
+Header color: LightSkyBlue	87CEFA	135,206,250
+
+Background color: LightBlue	ADD8E6	173,216,230
+
+Text Color :
+
+Botton color: 
+
+Hover botton : 
