@@ -385,7 +385,7 @@ nav {
     left:0;
     right:0;
     bottom:0;
-    background:rgba(135,206,250)!important;
+    background:rgba(173,216,230)!important;
     padding:50px 30px;
     border-bottom-left-radius:.2em;
     border-bottom-right-radius:.2em;
@@ -699,7 +699,7 @@ header .contact-button {
 
 .sticky-header {
     padding-top:10px;
-    background-color:#87CEFA
+    background-color:#ADD8E6
 }
 
 .sticky-header a {
@@ -973,7 +973,7 @@ header .contact-button {
 }
 
 footer {
-    background-color:#87CEFA;
+    background-color:#ADD8E6;
     height:130px;
     padding-top:2px;
 }
