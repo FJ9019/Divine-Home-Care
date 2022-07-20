@@ -48,3 +48,15 @@ String.prototype.includes||(String.prototype.includes=function(e,a){"use strict"
                     .children().removeClass("nav-active"),nav.children("#contact").addClass("nav-active"),
                     this.window.location.hash=$(".contacts").data("target")):nav.children()
                     .removeClass("nav-active")});
+
+
+
+/* Back Button */
+
+$(".label").mousedown(function(e){
+    $(this).addClass("active");
+  }).mouseclick(funtion(e){
+    $(this).removeClass("active")
+    }).mouseout(function(){
+      $(this).removeClass("active");
+    });
