@@ -370,40 +370,6 @@ html {
 }
 
 
-/* Header Back Button */
-
-.back-button {
-    position: right;
-    text-indent: -15px;
-    padding: 5px 0 5px 10px;
-    width: 100px;
-    overflow: auto;
-}
-
-.label {
-    display: block;
-    width:auto;
-    line-height: 26px;
-    font-size: 12px;
-    font-weight: 900px;
-    font-family: Helvetica, sans-serif;
-    color:#fff;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #efefef;
-    background-image: linear-gradient(top, white 0%, #efefef 60%, #e1dfe2 100%);
-    box-shadow: 0 1px 3px #cfcfcf;
-    border: 1px solid #bcbcbc;
-    border-left: 0;
-    color: #888;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    transition: color, 0.1s, linear, 0;
-}
-
-
-
-/* End Back Button */
 
 
 @media (max-width:767.98px){
@@ -684,18 +650,9 @@ ul.links li a:hover {
     content:"\e953"
 }
 
-/* New Nav Menu */
-
-.navbar-nav {
-    color:#fff;
-} 
 
 
-
-
-
-
-/* 1st Nav Menu */
+/* Nav Menu */
 header {
     position:fixed;
     top:-5px;
