@@ -5,7 +5,7 @@ html {
     -ms-overflow-style:scrollbar
 }
 
-*,:after,
+:after,
 :before {
     box-sizing:inherit
 }
@@ -375,7 +375,11 @@ html {
     line-height:24px;
     text-align: center;
 }
-    
+  
+.column-image  {
+    margin-top: 70px;
+    margin-right: 90px;
+}
 
 @media (max-width:767.98px){
 
@@ -507,7 +511,7 @@ header nav button {
 
 /* Banner */
 .banner {
-    background-image:url(../img/home1_sl2.jpg);
+    background-image:url(../img/home1_sl3.jpg);
     background-size:cover;
     height:500px;
     padding:0!important
@@ -592,6 +596,8 @@ header nav button {
 .label {
     display: inline-block;
     padding: 0.5em 1.7em;
+    position: absolute;
+    right: -600px;
     margin: 0 0.1em 0.1em 0;
     border: 0.16em solid rgb(255, 255, 255);
     border-radius: 2em;
