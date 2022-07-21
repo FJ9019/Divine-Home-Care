@@ -26,22 +26,33 @@
             </div>
                 <div class="col-md-7 col">
                     <nav class="navbar navbar-expand-md mt-1 navbar-light">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                          aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="icon-reorder"></i>
+                        </button>
+        
+                        <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-md-auto">
-                              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                              <a class="nav-link" href="about.html">About Us</a>
-                              <a class="nav-link" href="#">Services</a>
-                              <a class="nav-link" href="#">Careers</a>
-                              <a class="nav-link" href="#">Our Services</a>
+                                <li class="nav-item nav-active" id="homeNav">
+                                    <a class="nav-link"  href=".">HOME</a>
+                                </li>
+                                <li class="nav-item" id="aboutus">
+                                    <a class="nav-link" href="about.html" target="aboutus">ABOUT US</a>
+                                </li>
+                                <li class="nav-item" id="services">
+                                    <a class="nav-link" data-scroll-target=".features-what-we-do" target="services">SERVICES</a>
+                                </li>
+                                <li class="nav-item" id="careers">
+                                    <a class="nav-link" href="https://www.mydivincecare.com">CAREERS</a>
+                                </li>
+                            
+                                <li class="nav-item d-sm-block d-md-none" id="contact">
+                                    <a class="nav-link" data-scroll-target=".contacts" href="#">CONTACT US</a>
+                                </li>
                             </ul>
-                          </div>
                         </div>
-                      </nav>
+                    </nav>
                 </div>
                 <div class="col-3 d-none d-md-flex flex-row justify-content-md-end">
                     <span data-scroll-target=".contacts"  class="basic-button contact-button">CONTACT US</span>
@@ -105,7 +116,6 @@
             <div class="feature-desc">Vestibulum viverra, nunc a vulputate elementum, tortor magna vestibulum massa, eget tempus erat mauris nec massa. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
         </div>
     </section>
-
 
 
 </div>
