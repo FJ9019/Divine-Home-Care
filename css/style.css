@@ -379,6 +379,41 @@ html {
     transition:all .6s ease
 }
 
+/* End CSS General */
+
+/* Navbar */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-flex-properties {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: inline-block;
+    font-size: 15px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.hover-focus {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction
+}
+/* End Navbar */
+
 nav {
     height:45px!important
 }
