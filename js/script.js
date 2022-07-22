@@ -51,12 +51,3 @@ String.prototype.includes||(String.prototype.includes=function(e,a){"use strict"
 
 
 
-/* Back Button */
-
-$(".label").mousedown(function(e){
-    $(this).addClass("active");
-  }).mouseclick(funtion(e){
-    $(this).removeClass("active")
-    }).mouseout(function(){
-      $(this).removeClass("active");
-    });

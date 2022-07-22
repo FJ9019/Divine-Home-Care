@@ -508,6 +508,49 @@ header nav button {
     outline:none!important
 }
 
+header nav button i {
+    color:#599c2a
+}
+
+header nav .nav-menu {
+    font-weight:400!important
+}
+
+header nav .nav-menu 
+.nav-item {
+    font-size:.9rem;
+    font-weight:600;
+    cursor:pointer
+}
+
+header nav .nav-menu 
+.nav-item .nav-link {
+    color:#fff!important
+}
+
+header nav .nav-menu 
+.nav-active .nav-link,
+header nav .nav-menu 
+.nav-active a {
+    color:#599c2a!important
+}
+
+header .contact-button {
+    height:45px;
+    margin-top:auto;
+    margin-bottom:auto
+}
+
+.sticky-header {
+    padding-top:10px;
+    background-color:#ADD8E6
+}
+
+.sticky-header a {
+    color:#fff!important
+}
+
+/* End Header */
 
 /* Banner */
 .banner {
@@ -596,8 +639,6 @@ header nav button {
 .label {
     display: inline-block;
     padding: 0.5em 1.7em;
-    position: absolute;
-    right: -600px;
     margin: 0 0.1em 0.1em 0;
     border: 0.16em solid rgb(255, 255, 255);
     border-radius: 2em;
