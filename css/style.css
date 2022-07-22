@@ -410,7 +410,7 @@ html {
 
 .navbar-nav {
     display: flex;
-    flex-direction
+    flex-direction: row;
 }
 /* End Navbar */
 
