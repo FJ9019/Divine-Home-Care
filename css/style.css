@@ -735,16 +735,24 @@ header nav .nav-menu
 header .contact-button {
     height:45px;
     margin-top:auto;
-    margin-bottom:auto
+    margin-bottom:auto;
 }
 
 .sticky-header {
     padding-top:10px;
-    background-color:#ADD8E6!important
+    background-color:#ADD8E6!important;
+    overflow: initial !important;
+    position:sticky;
 }
 
 .sticky-header a {
-    color:#fff!important
+    color: #fff!important;
+    overflow: initial !important;
+    text-transform: none;
+}
+
+.navbar-toggler {
+    color: #599c2a;
 }
 
 .btn-scroll-to-top {
