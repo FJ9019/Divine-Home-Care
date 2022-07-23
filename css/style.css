@@ -5,7 +5,13 @@ html {
     -ms-overflow-style:scrollbar
 }
 
-*,:after,
+body {
+    font-family: montserrat;
+    font-size: 100%;
+    color: #878787;
+    background-color: #f5f8fa;
+}
+:after,
 :before {
     box-sizing:inherit
 }
@@ -741,18 +747,31 @@ header .contact-button {
 .sticky-header {
     padding-top:10px;
     background-color:#ADD8E6!important;
-    overflow: initial !important;
-    position:sticky;
 }
 
 .sticky-header a {
-    color: #fff!important;
-    overflow: initial !important;
-    text-transform: none;
+   padding-top: 10px;
+   background-color: #272a2c;
+}
+
+.navbar-light
+.navbar-toggler {
+    color: #599c2a;
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
 }
 
 .navbar-toggler {
-    color: #599c2a;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
 }
 
 .btn-scroll-to-top {
