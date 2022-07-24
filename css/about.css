@@ -370,14 +370,14 @@ html {
     text-align: center;
 }
     
-.page-section .section-desc {
+.page-section .section-desc-0 {
     font-size:14px;
     line-height:24px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-  
+
 .column-image  {
     margin-top: 70px;
     margin-right: 90px;
@@ -545,7 +545,8 @@ header .contact-button {
 
 .sticky-header {
     padding-top:10px;
-    background-color:#ADD8E6
+    background-color:#ADD8E6;
+    width: 100%;
 }
 
 .sticky-header a {

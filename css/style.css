@@ -767,13 +767,13 @@ header .contact-button {
 }
 
 .sticky-header {
-    padding-top:10px;
-    background-color:#ADD8E6!important;
+    padding-top: 10px;
+    background-color:#ADD8E6;
+    width: 100%;
 }
 
 .sticky-header a {
-   padding-top: 10px;
-   background-color: transparent;
+    color:#fff!important
 }
 
 .navbar-light

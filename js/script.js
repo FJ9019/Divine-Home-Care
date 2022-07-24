@@ -5,7 +5,7 @@ String.prototype.includes||(String.prototype.includes=function(e,a){"use strict"
 !(a+e.length>this.length)&&-1!==this.indexOf(e,a)}),$(document)
 .ready(function(){
     var e=window.location.hash;void 0!==e&&void 0!==(e=e.includes("about")?".green-feature-box":e.includes
-    ("services")?".features-what-we-do":e.includes("contact")?".contacts":void 0)&&$("html, body").
+    ("services")?".features-what-we-do":e.includes("contact")?".contact":void 0)&&$("html, body").
     animate({scrollTop:$(e).offset().top},1e3)}),$(document).on("click","[data-scroll-target]",function(e){
         topVal=isSticky?$(this.dataset.scrollTarget).offset().top-stickyNavHeight:$(this.dataset.scrollTarget).
         offset().top-$(".header-info-section").height()-stickyNavHeight,$("html,body").animate({scrollTop:topVal},
@@ -41,13 +41,13 @@ String.prototype.includes||(String.prototype.includes=function(e,a){"use strict"
                     this.window.location.hash=nav.children("#aboutus").children(0).attr("target"),
                     $(".btn-scroll-to-top").css("opacity","1"),$(".btn-scroll-to-top")
                     .css("bottom","2em")):$window.scrollTop()>=$(".features-what-we-do").offset()
-                    .top-marginedNavHeight&&$window.scrollTop()<=$(".contacts").offset()
+                    .top-marginedNavHeight&&$window.scrollTop()<=$(".contact").offset()
                     .top-marginedNavHeight?(nav.children().removeClass("nav-active"),nav.children("#services")
                     .addClass("nav-active"),this.window.location.hash=nav.children("#services").children(0)
-                    .attr("target")):$window.scrollTop()>=$(".contacts").offset().top-marginedNavHeight?(nav
+                    .attr("target")):$window.scrollTop()>=$(".contact").offset().top-marginedNavHeight?(nav
                     .children().removeClass("nav-active"),nav.children("#contact").addClass("nav-active"),
-                    this.window.location.hash=$(".contacts").data("target")):nav.children()
+                    this.window.location.hash=$(".contact").data("target")):nav.children()
                     .removeClass("nav-active")});
 
 
-
+                    document.getElementById("Button").disabled = false;
