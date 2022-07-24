@@ -998,23 +998,23 @@ header .contact-button {
     padding:22px
 }
 
-.contacts {
+.contact {
     background-color:#2e9dd1
 }
 
-.contacts 
+.contact 
 .contact-image {
     background-image:url(/img/contact-us.jpg);
     background-size:cover
 }
 
-.contacts 
+.contact 
 .contact-form {
     padding:40px 40px 80px;
     color:#fff
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .contact-form-subtitle {
     font-size:14px;
     font-weight:700;
@@ -1022,27 +1022,27 @@ header .contact-button {
     margin-bottom:10px
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .contact-form-title {
     font-weight:lighter
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .contact-form-form div {
     margin-top:30px
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .contact-form-form div input {
     margin-left:20px
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .contact-form-form div input:first-of-type {
     margin-left:0
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .info-box {
     padding:10px 10px 10px 20px;
     background-color:#fff;
@@ -1052,12 +1052,12 @@ header .contact-button {
     visibility:hidden
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .error-message {
     color:red
 }
 
-.contacts .contact-form 
+.contact .contact-form 
 .success-message {
     color:green
 }
@@ -1077,12 +1077,12 @@ footer .footer-title {
 }
 
 footer 
-.contacts_info {
+.contact_info {
     font-size:14px;
     font-weight:lighter
 }
 
-footer .contacts_info span {
+footer .contact_info span {
     display:block;
     margin-top:10px
 }
