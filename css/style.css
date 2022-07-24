@@ -1,5 +1,5 @@
 /* CSS General */
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 html {
     box-sizing:border-box;
     -ms-overflow-style:scrollbar
@@ -352,8 +352,28 @@ body {
 }
 }
 
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 .page-section div {
     margin-bottom:1.2rem
+}
+
+.service {
+    justify-content: center;
+    padding: 40px 10px 0;
+}
+
+.service .service-icon {
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    box-shadow: #000 4px rgba(0, 0, 0 / 2%);
+    font-size: 3em;
+    height: 2em;
+    line-height: 2em;
+    width: 2em;
+    color: #2e9dd1;
 }
 
 .page-section .section-subtitle {
@@ -369,6 +389,65 @@ body {
 .page-section .section-desc {
     font-size:14px;
     line-height:24px
+}
+
+[class*=" ab-icon-"]:before,
+[class^=ab-icon-]:before {
+    font-family:fontello;
+    font-style:normal;
+    font-weight:400;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+.generic-icon {
+    font-size:48px;
+    color:#202325
+}
+
+.ab-icon-logout:before {
+    content:"\e80b"
+}
+
+.ab-icon-address:before {
+    content:"\e834"
+}
+
+.ab-icon-food-light:before {
+    content:"\e861"
+}
+
+.ab-icon-slideshare:before {
+    content:"\e88f"
+}
+
+.ab-icon-home-alt:before {
+    content:"\e8fb"
+}
+
+.ab-icon-speech:before {
+    content:"\e90b"
+}
+
+.ab-icon-surgeon:before {
+    content:"\e944"
+}
+
+.ab-icon-medicine:before {
+    content:"\e94d"
+}
+
+.ab-icon-patch:before {
+    content:"\e953"
 }
 
 .column-text {
@@ -630,64 +709,7 @@ ul.links li a:hover {
     text-decoration:none
 }
 
-[class*=" ab-icon-"]:before,
-[class^=ab-icon-]:before {
-    font-family:fontello;
-    font-style:normal;
-    font-weight:400;
-    display:inline-block;
-    text-decoration:inherit;
-    width:1em;
-    margin-right:.2em;
-    text-align:center;
-    font-variant:normal;
-    text-transform:none;
-    line-height:1em;
-    margin-left:.2em;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
-}
 
-.generic-icon {
-    font-size:48px;
-    color:#202325
-}
-
-.ab-icon-logout:before {
-    content:"\e80b"
-}
-
-.ab-icon-address:before {
-    content:"\e834"
-}
-
-.ab-icon-food-light:before {
-    content:"\e861"
-}
-
-.ab-icon-slideshare:before {
-    content:"\e88f"
-}
-
-.ab-icon-home-alt:before {
-    content:"\e8fb"
-}
-
-.ab-icon-speech:before {
-    content:"\e90b"
-}
-
-.ab-icon-surgeon:before {
-    content:"\e944"
-}
-
-.ab-icon-medicine:before {
-    content:"\e94d"
-}
-
-.ab-icon-patch:before {
-    content:"\e953"
-}
 
 
 
